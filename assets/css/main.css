@@ -4107,5 +4107,21 @@ input, select, textarea {
 						margin: 0;
 						padding: 0;
 					}
+		.image.avatar {
+  width: 180px;        /* choose size */
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* ensures fill without distortion */
+}
 
 	}
